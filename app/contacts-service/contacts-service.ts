@@ -6,166 +6,153 @@ export class ContactsService {
     {
       id: 0,
       name: 'Commander Shepard',
-      email: 'christoph@thoughtram.io',
-      phone: '+49 000 1111',
-      birthday: '1984-01-02',
-      website: 'thoughtram.io',
+      race: 'Human',
+      gender: 'Male',
+     voiceActor: 'Mark Meer',
+      profession: 'N7 Alliance Marine / Spectre',
       image: '/assets/images/0.jpg',
-      address: {
-        street: 'thoughtram road 1',
-        zip: '65222',
-        city: 'Hanover',
-        country: 'Germany'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 1,
-      name: 'The Joker',
-      email: 'pascal@thoughtram.io',
-      phone: '+49 000 222',
-      birthday: '1991-03-31',
-      website: 'thoughtram.io',
+      name: 'Jeff "Joker" Moreau',
+      race: 'Human',
+      gender: 'Male',
+     voiceActor: 'Seth Green',
+      profession: 'Flight Lieutenant',
       image: '/assets/images/1.jpg',
-      address: {
-        street: 'thoughtram road 1',
-        zip: '65222',
-        city: 'Hanover',
-        country: 'Germany'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: -1,
-      name: 'Captain Anderson',
-      email: 'who@car.es',
-      phone: '+49 000 333',
-      birthday: '1981-03-31',
-      website: '',
+      name: 'David Anderson',
+      race: 'Human',
+      gender: 'Male',
+     voiceActor: 'Keith David',
+      profession: 'Alliance Officer',
       image: '/assets/images/2.jpg',
-      address: {
-        street: 'Who Cares Street 42',
-        zip: '65222',
-        city: 'Sun Funcisco',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 2,
-      name: 'Admiral Hackett',
-      email: 'who@car.es',
-      phone: '+49 000 333',
-      birthday: '1981-03-31',
-      website: '',
+      name: 'Steven Hackett',
+      race: 'Alliance Admiral',
+      gender: 'Male',
+     voiceActor: 'Lance Henriksen',
+      profession: 'Alliance Admiral',
       image: '/assets/images/3.png',
-      address: {
-        street: 'Who Cares Street 42',
-        zip: '65222',
-        city: 'Sun Funcisco',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 3,
       name: 'EDI',
-      email: 'zoe@moore.com',
-      phone: '+49 000 000',
-      birthday: '1990-02-18',
-      website: '',
+      race: 'Artificial Intelligence',
+      gender: 'Feminine Programming',
+     voiceActor: 'Tricia Helfer',
+      profession: 'Enhanced Defense Intelligence',
       image: '/assets/images/4.jpg',
-      address: {
-        street: '3745 denny street',
-        zip: '86337',
-        city: 'Ballinasloe',
-        country: 'United States'
+      appereances: {
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 4,
-      name: 'Tali',
-      email: '',
-      phone: '',
-      birthday: '',
-      website: '',
+      name: 'Tali Zorah nar Rayya',
+      race: 'Quarian',
+      gender: 'Female',
+     voiceActor: 'Ash Sroka',
+      profession: 'Quarian Machinist',
       image: '/assets/images/5.jpg',
-      address: {
-        street: '1459 tara street',
-        zip: '18371',
-        city: 'Bray',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 5,
-      name: 'Tiara T soni',
-      email: '',
-      phone: '',
-      birthday: '',
-      website: '',
+      name: 'Liara T Soni',
+      race: 'Asari',
+      gender: 'Feminine',
+     voiceActor: 'Ali Hillis',
+      profession: 'Asari Scientist',
       image: '/assets/images/6.jpg',
-      address: {
-        street: '6503 tara street',
-        zip: '43378',
-        city: 'Dungarvan',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 6,
-      name: 'Ashely Williams',
-      email: '',
-      phone: '',
-      birthday: '',
-      website: '',
+      name: 'Ashley Williams',
+      race: 'Human',
+      gender: 'Female',
+     voiceActor: 'Kimberly Brooks',
+      profession: 'Systems Alliance Soldier',
       image: '/assets/images/7.jpg',
-      address: {
-        street: '6554 park lane',
-        zip: '43378',
-        city: 'Rush',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect 1',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'
       }
     },
     {
       id: 7,
       name: 'Illusive Man',
-      email: '',
-      phone: '',
-      birthday: '',
-      website: '',
+      race: 'Human',
+      gender: 'Male',
+     voiceActor: 'Martin Sheen',
+      profession: 'Leader of Cerberus',
       image: '/assets/images/8.png',
-      address: {
-        street: '2749 church road',
-        zip: '87125',
-        city: 'Clonakilty',
-        country: 'United States'
+      appereances: {
+        city: 'Mass Effect 2',
+        country: 'Mass Effect 3'
       }
     },
     {
       id: 8,
       name: 'Garrus Vakarian',
-      email: '',
-      phone: '',
-      birthday: '',
-      website: '',
+      race: 'Turian',
+      gender: 'Male',
+     voiceActor: 'Brandon Keener',
+      profession: 'Turian Agent',
       image: '/assets/images/9.png',
-      address: {
-        street: '8436 tara street',
-        zip: '59949',
-        city: 'Dundalk',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect ',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'    
       }
     },
     {
       id: 9,
       name: 'Miranda Lawson',
-      email: '',
-      phone: '',
-      birthday: '',
-      website: '',
+      race: 'Human',
+      gender: 'Female',
+     voiceActor: 'Yvonne Strahovski',
+      profession: 'Cerberus Officer',
       image: '/assets/images/10.jpg',
-      address: {
-        street: '2523 park road',
-        zip: '59949',
-        city: 'Drogheda',
-        country: 'United States'
+      appereances: {
+        street: 'Mass Effect ',
+        zip: 'Mass Effect 2',
+        city: 'Mass Effect 3'  
       }
     }
   ];
