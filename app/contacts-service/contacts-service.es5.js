@@ -12,9 +12,9 @@ angular
         profession: 'N7 Alliance Marine / Spectre',
         image: '/assets/images/0.jpg',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -26,9 +26,9 @@ angular
         profession: 'Flight Lieutenant',
         image: '/assets/images/1.jpg',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -40,9 +40,9 @@ angular
         profession: 'Alliance Officer',
         image: '/assets/images/2.jpg',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -54,9 +54,9 @@ angular
         profession: 'Alliance Admiral',
         image: '/assets/images/3.png',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -68,8 +68,8 @@ angular
         profession: 'Enhanced Defense Intelligence',
         image: '/assets/images/4.jpg',
         appereances: {
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -81,9 +81,9 @@ angular
         profession: 'Quarian Machinist',
         image: '/assets/images/5.jpg',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -95,9 +95,9 @@ angular
         profession: 'Asari Scientist',
         image: '/assets/images/6.jpg',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -109,9 +109,9 @@ angular
         profession: 'Systems Alliance Soldier',
         image: '/assets/images/7.jpg',
         appereances: {
-          street: 'Mass Effect 1',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -123,8 +123,8 @@ angular
         profession: 'Leader of Cerberus',
         image: '/assets/images/8.png',
         appereances: {
-          city: 'Mass Effect 2',
-          country: 'Mass Effect 3'
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -136,9 +136,9 @@ angular
         profession: 'Turian Agent',
         image: '/assets/images/9.png',
         appereances: {
-          street: 'Mass Effect ',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect ',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       },
       {
@@ -150,9 +150,9 @@ angular
         profession: 'Cerberus Officer',
         image: '/assets/images/10.jpg',
         appereances: {
-          street: 'Mass Effect ',
-          zip: 'Mass Effect 2',
-          city: 'Mass Effect 3'
+          game1: 'Mass Effect',
+          game2: 'Mass Effect 2',
+          game3: 'Mass Effect 3'
         }
       }
     ];

@@ -7,39 +7,32 @@
       </div>
       <div class="card-content grey-text text-darken-4">
         <div class="row">
-          <span class="col s6"><i class="material-icons prefix">email</i> Email:</span>
-          <span class="col s6">{{$ctrl.contact.email || '-'}}</span>
+          <span class="col s6"> Race:</span>
+          <span class="col s6">{{$ctrl.contact.race || '-'}}</span>
         </div>
         <div class="row">
-          <span class="col s6"><i class="material-icons prefix">phone</i> Phone:</span>
-          <span class="col s6">{{$ctrl.contact.phone || '-'}}</span>
+          <span class="col s6">Gender:</span>
+          <span class="col s6">{{$ctrl.contact.gender || '-'}}</span>
         </div>
         <div class="row">
-          <span class="col s6"><i class="material-icons prefix">cake</i> Birthday:</span>
-          <span class="col s6">{{$ctrl.contact.birthday || '-'}}</span>
+          <span class="col s6">Profession:</span>
+          <span class="col s6">{{$ctrl.contact.profession || '-'}}</span>
         </div>
         <div class="row">
-          <span class="col s6"><i class="material-icons prefix">public</i> Website:</span>
-          <span class="col s6">{{$ctrl.contact.website || '-'}}</span>
+          <span class="col s6"> Voice Actor:</span>
+          <span class="col s6">{{$ctrl.contact.voiceActor || '-'}}</span>
         </div>
         <zippy-component title="{{$ctrl.zippyCaption}}" toggle="$ctrl.toggleCaption(closed)">
           <fieldset>
-            <legend><i class="material-icons prefix">location_city</i> Address</legend>
+            <legend>Appereances</legend>
             <div class="row">
-              <span class="col s6">Street:</span>
-              <span class="col s6">{{$ctrl.contact.address.street || '-'}}</span>
+              <span class="col s6">{{$ctrl.contact.appereances.game1 || '-'}}</span>
             </div>
             <div class="row">
-              <span class="col s6">Zipcode:</span>
-              <span class="col s6">{{$ctrl.contact.address.zip || '-'}}</span>
+              <span class="col s6">{{$ctrl.contact.appereances.game2 || '-'}}</span>
             </div>
             <div class="row">
-              <span class="col s6">City:</span>
-              <span class="col s6">{{$ctrl.contact.address.city || '-'}}</span>
-            </div>
-            <div class="row">
-              <span class="col s6">Country:</span>
-              <span class="col s6">{{$ctrl.contact.address.country || '-'}}</span>
+              <span class="col s6">{{$ctrl.contact.appereances.game3 || '-'}}</span>
             </div>
           </fieldset>
         </zippy-component>

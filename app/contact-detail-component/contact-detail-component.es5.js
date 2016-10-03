@@ -15,7 +15,7 @@ angular
       };
 
       this.toggleCaption = function (closed) {
-        this.zippyCaption = closed ? 'Show address' : 'Hide address';
+        this.zippyCaption = closed ? 'Show Appereances' : 'Hide Appereances';
       };
 
     }
