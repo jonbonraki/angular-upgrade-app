@@ -2,44 +2,44 @@
   <div class="col s12 m7">
     <div class="card">
       <div class="card-image">
-        <img ng-src="{{$ctrl.contact.image}}">
-        <span class="card-title">{{$ctrl.contact.name}}</span>
+        <img ng-src="{{$ctrl.character.image}}">
+        <span class="card-title">{{$ctrl.character.name}}</span>
       </div>
       <div class="card-content grey-text text-darken-4">
         <div class="row">
           <span class="col s6"> Race:</span>
-          <span class="col s6">{{$ctrl.contact.race || '-'}}</span>
+          <span class="col s6">{{$ctrl.character.race || '-'}}</span>
         </div>
         <div class="row">
           <span class="col s6">Gender:</span>
-          <span class="col s6">{{$ctrl.contact.gender || '-'}}</span>
+          <span class="col s6">{{$ctrl.character.gender || '-'}}</span>
         </div>
         <div class="row">
           <span class="col s6">Profession:</span>
-          <span class="col s6">{{$ctrl.contact.profession || '-'}}</span>
+          <span class="col s6">{{$ctrl.character.profession || '-'}}</span>
         </div>
         <div class="row">
           <span class="col s6"> Voice Actor:</span>
-          <span class="col s6">{{$ctrl.contact.voiceActor || '-'}}</span>
+          <span class="col s6">{{$ctrl.character.voiceActor || '-'}}</span>
         </div>
         <zippy-component title="{{$ctrl.zippyCaption}}" toggle="$ctrl.toggleCaption(closed)">
           <fieldset>
             <legend>Appereances</legend>
             <div class="row">
-              <span class="col s6">{{$ctrl.contact.appereances.game1 || '-'}}</span>
+              <span class="col s6">{{$ctrl.character.appereances.game1 || '-'}}</span>
             </div>
             <div class="row">
-              <span class="col s6">{{$ctrl.contact.appereances.game2 || '-'}}</span>
+              <span class="col s6">{{$ctrl.character.appereances.game2 || '-'}}</span>
             </div>
             <div class="row">
-              <span class="col s6">{{$ctrl.contact.appereances.game3 || '-'}}</span>
+              <span class="col s6">{{$ctrl.character.appereances.game3 || '-'}}</span>
             </div>
           </fieldset>
         </zippy-component>
       </div>
       <div class="card-action">
         <a class="btn" href="#/">Go Back</a>
-        <a class="btn" ng-href="#/contact/{{$ctrl.contact.id}}/edit">Edit</a>
+        <a class="btn" ng-href="#/character/{{$ctrl.character.id}}/edit">Edit</a>
       </div>
     </div>
   </div>

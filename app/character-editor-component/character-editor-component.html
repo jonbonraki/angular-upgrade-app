@@ -2,37 +2,37 @@
   <form class="col s12 m7">
     <div class="card">
       <div class="card-image">
-        <img ng-src="{{$ctrl.contact.image}}">
-        <span class="card-title">{{$ctrl.contact.name}}</span>
+        <img ng-src="{{$ctrl.character.image}}">
+        <span class="card-title">{{$ctrl.character.name}}</span>
       </div>
       <div class="card-content grey-text text-darken-4">
         <div class="row">
           <div class="input-field col s12">
-            <i class="material-icons prefix">account_circle</i><input ng-model="$ctrl.contact.name" id="name" type="text" class="validate">
+            <i class="material-icons prefix">account_circle</i><input ng-model="$ctrl.character.name" id="name" type="text" class="validate">
             <label class="active" for="name">Name</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-           <input id="email" ng-model="$ctrl.contact.race" type="text" class="validate">
+           <input id="email" ng-model="$ctrl.character.race" type="text" class="validate">
             <label class="active" for="race">Race</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-             <input id="phone" ng-model="$ctrl.contact.gender" type="text" class="validate">
+             <input id="phone" ng-model="$ctrl.character.gender" type="text" class="validate">
             <label class="active" for="gender">Gender</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="birthday" ng-model="$ctrl.contact.profession" type="text" class="validate">
+            <input id="birthday" ng-model="$ctrl.character.profession" type="text" class="validate">
             <label class="active" for="profession">Profession</label>
           </div>
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <input id="website" ng-model="$ctrl.contact.voiceActor" type="text" class="validate">
+            <input id="website" ng-model="$ctrl.character.voiceActor" type="text" class="validate">
             <label class="active" for="voiceActor">Voice Actor</label>
           </div>
         </div>
@@ -41,25 +41,25 @@
 
           <div class="row">
             <div class="input-field col s12">
-              <input id="street" type="text" ng-model="$ctrl.contact.appereances.game1" class="validate">
+              <input id="street" type="text" ng-model="$ctrl.character.appereances.game1" class="validate">
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="zip" type="text" ng-model="$ctrl.contact.appereances.game2" class="validate">
+              <input id="zip" type="text" ng-model="$ctrl.character.appereances.game2" class="validate">
             </div>
           </div>
 
           <div class="row">
             <div class="input-field col s12">
-              <input id="city" type="text" ng-model="$ctrl.contact.appereances.game3" class="validate">
+              <input id="city" type="text" ng-model="$ctrl.character.appereances.game3" class="validate">
             </div>
           </div>
         </fieldset>
       </div>
       <div class="card-action">
-        <button type="button" class="btn" ng-click="$ctrl.cancel($ctrl.contact)">Cancel</button>
-        <button type="button" class="btn" ng-click="$ctrl.save($ctrl.contact)">Save</button>
+        <button type="button" class="btn" ng-click="$ctrl.cancel($ctrl.character)">Cancel</button>
+        <button type="button" class="btn" ng-click="$ctrl.save($ctrl.character)">Save</button>
       </div>
     </div>
   </form>
